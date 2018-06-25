@@ -15,13 +15,16 @@
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
+## Task log
+---
+[Project on taiga.io](https://tree.taiga.io/project/jaume-gasa-cofisync/kanban)
 
 ## Authors
 ---
 Feel free to contact us to discuss any issues, questions, or comments.
 
-- Unai Pastor Garrido: Project creator and current developer.
-    - Email: <unaipg@gmail.com>
-
 - Jaume Gasa Gómez: Project creator and current developer.
     - Email: <ua.jaume@gmail.com>
+
+- Unai Pastor Garrido: Project creator and current developer.
+    - Email: <unaipg@gmail.com>
