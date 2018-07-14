@@ -14,8 +14,10 @@ install:
     - pipenv install --dev --three
 
 script:
-    - pipenv run pycodestyle . --ignore ./.venv
-    - pipenv run pydocstyle . --ignore ./.venv
+    - mkdir ~/.config
+    - cp ./setup.cfg ~/.config/pycodestyle
+    - pipenv run pycodestyle .
+    - pipenv run pydocstyle .
 
 test:
     - pipenv run python -m unittest discover
