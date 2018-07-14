@@ -10,11 +10,12 @@ env:
         - PIPENV_IGNORE_VIRTUALENVS=1
 
 install:
+    - export PIPENV_CACHE_DIR='/home'
     - pip install pipenv
     - pipenv install --dev --three
 
 script:
-    - pipenv run pycodestyle --show-source .
+    - pipenv run pycodestyle .
     - pipenv run pydocstyle .
 
 test:
