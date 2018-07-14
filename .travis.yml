@@ -2,7 +2,6 @@ language: python
 
 python:
     - "3.6"
-    - "3.7"
 
 env:
     global:
@@ -14,7 +13,6 @@ install:
     - pipenv install --dev --three
 
 script:
-    - mkdir ~/.config
     - cp ./setup.cfg ~/.config/pycodestyle
     - pipenv run pycodestyle .
     - pipenv run pydocstyle .
