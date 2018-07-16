@@ -1,4 +1,5 @@
-# CoFiSync
+[![Build Status](https://travis-ci.org/jaume-gasa/CoFiSync.svg?branch=master)](https://travis-ci.org/jaume-gasa/CoFiSync)
+# CoFiSync 
 >Awesome continuous file synchronization made with Pyhon 🐍
 
 
@@ -14,6 +15,12 @@
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
+
+#### Branch naming
+
+When creating a new branch name it like this:
+
+`feature/{Task number in taiga.io}-{Name_in_taiga.io}`
 
 ## Task log
 ---

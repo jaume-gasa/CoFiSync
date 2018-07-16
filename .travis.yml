@@ -1,0 +1,20 @@
+language: python
+
+python:
+    - "3.6"
+
+env:
+    global:
+        - PIPENV_VENV_IN_PROJECT=1
+        - PIPENV_IGNORE_VIRTUALENVS=1
+
+install:
+    - pip install pipenv
+    - pipenv install --dev --three
+    - cp ./setup.cfg ~/.config/pycodestyle
+
+script:
+    - pipenv run pycodestyle .
+    - pipenv run pydocstyle .
+    - pipenv run python -m unittest discover
+

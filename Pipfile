@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 
 [dev-packages]
+pycodestyle = "*"
+pydocstyle = "*"
 
 [requires]
 python_version = "3.6"
